@@ -7,5 +7,11 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+  theme: {
+    fontFamily: {
+      bankgothic: ['"BankGothic"', "sans-serif"],
+      type82: ['"Type82"', "sans-serif"],
+    },
+  },
 };
 export default config;
