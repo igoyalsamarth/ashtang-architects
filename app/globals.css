@@ -13,5 +13,5 @@
 }
 
 html, body {
-  @apply font-type82;
+  @apply font-type82 text-black;
 }

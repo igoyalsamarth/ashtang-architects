@@ -1,3 +1,4 @@
+import { Container } from "@/components/Container/page";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -7,6 +8,12 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <p>About Page</p>
+    <Container>
+      <div className="flex flex-col gap-4">
+        <p className="">About</p>
+        <p className="">Ashtanga</p>
+        <p className="">Architects</p>
+      </div>
+    </Container>
   )
 }
