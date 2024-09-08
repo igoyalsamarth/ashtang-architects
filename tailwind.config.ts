@@ -8,6 +8,10 @@ const config: Config = {
   ],
   plugins: [],
   theme: {
+    screens: {
+      'sm': { 'max': '480px' },
+      // ... other breakpoints
+    },
     fontFamily: {
       bankgothic: ['"BankGothic"', "sans-serif"],
       type82: ['"Type82"', "sans-serif"],
