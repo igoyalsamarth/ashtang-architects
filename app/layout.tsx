@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     description: "Discover innovative and sustainable architectural designs by Ashtanga Architects, North India's leading architect firm.",
     url: "https://www.ashtangaarchitect.com",
     siteName: "Ashtanga Architects",
-    images: [{ url: 'https://www.ashtangaarchitect.com/logo.png' }],
+    images: [{ url: 'https://www.ashtangaarchitect.com/logo-black.png' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: "Ashtanga Architects - Innovative Design Solutions",
     description: "Premium architectural services in North India, focusing on sustainability and innovation.",
-    images: ['https://www.ashtangaarchitect.com/logo.png'],
+    images: ['https://www.ashtangaarchitect.com/logo-black.png'],
   },
   robots: "index, follow",
 };
